@@ -62,7 +62,15 @@ body{
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+	cursor:pointer;
 }
+.photo-album ul li:hover{
+    background-color: white;
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
 
 .photo-album ul li img{
     width: 60px;
@@ -115,12 +123,20 @@ body{
 
 .variant ul li img{
     width: 35px;
-    border-radius: 50%;
+	border:1px solid white;
+    border-radius: 10%;
     padding: 2px;
+    
+}
+.variant ul li:hover{
+    background-color: white;
+	border:1px solid black;
+    transform: scale(1.05);
+    transition: 0.3s ease;
     cursor: pointer;
 }
 
-/* DESCRIPTION */
+
 .description{
     margin: 30px 0;
 }
