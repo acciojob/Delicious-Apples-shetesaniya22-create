@@ -41,7 +41,12 @@ body{
 .photo-main img{
     width: 100%;
 }
-
+.photo-main img:hover{
+	  transform: scale(1.05);
+    transition: 0.3s ease;
+    cursor: pointer;
+   
+}
 
 .controls{
     display: flex;
